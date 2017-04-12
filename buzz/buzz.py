@@ -1,5 +1,9 @@
+import sys
 
-for i in range(1, 201):
+N = int(sys.stdin.readline().strip())
+
+
+for i in range(1, N+1):
     if i % 3 == 0 and i % 5 == 0 and i % 11 == 0:
         print('BizzFuzzBuzz')
     elif i % 5 == 0 and i % 11 == 0:
