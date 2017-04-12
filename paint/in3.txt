@@ -1,0 +1,7 @@
+5 5 G
+B B B B B B B
+B G G G G G B
+B G G G G G B
+B G G G G G B
+B G G G G G B
+B B B B B B B
