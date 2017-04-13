@@ -1,7 +1,7 @@
 import random
 
 N = 40
-M = 40
+M = 45
 
 print('{} {}'.format(N, M))
 for i in range(0, N):
