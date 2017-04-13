@@ -1,3 +1,4 @@
+5 5
 3 1 G
 B B G R R
 B B B R R
