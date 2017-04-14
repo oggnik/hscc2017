@@ -1,5 +1,7 @@
 import sys
 
+# Skip size lines, we calculate dynamically
+sys.stdin.readline()
 header = sys.stdin.readline().strip().split()
 starting_coords = (int(header[0]), int(header[1]))
 replacement_color = header[2]
