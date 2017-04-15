@@ -1,5 +1,5 @@
 import random
-M = random.randint(10, 1000)
+M = random.randint(500, 600)
 print(M)
 V = [[0 for i in range(M)] for j in range(M)]
 max_so_far = 1
@@ -17,5 +17,6 @@ for i in range(0, M):
 T = random.randint(100, 1000)
 print(T)
 for i in range(0, T):
-	print(random.randint(1, M))
-	print(random.randint(1, M))
+	A = random.randint(1, M)
+	B = random.randint(1, M)
+	print(str(A) + " " + str(B))
